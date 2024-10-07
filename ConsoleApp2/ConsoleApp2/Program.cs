@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ConsoleApp2;
 
-Console.WriteLine("Hello, World!");
+internal class Program
+{
+
+
+    public static void Main(string[] args)
+    {
+        convertir seconde = new convertir();
+        seconde.time();
+    }
+
+}
